@@ -1,0 +1,53 @@
+def WXYJ_cal(bt):
+    '''
+    【计算五险一金】
+    bt：税前工资
+    '''
+
+    sb_b = (4927, 24633)  # 社保基数（最低，最高）
+    gjg_b = (2415, 23500)  # 公积金基数（最低，最高）
+    sb_p = (0.105, 0.2876)  # 社保缴存比例（个人，公司）
+    gjg_p = (0.07, 0.07)  # 公积金缴存比例（个人，公司）
+
+    # 上海市案例，更换城市需修改常量
+
+    def general_compute(b, p):
+        '''
+        【通用计算函数】
+        b：社保或公积金基数
+        p：社保或公积金缴存比例
+        '''
+
+        if bt <= b[0]:
+            # 如果税前工资小于最低基数
+            return {'个人': b[0] * p[0],
+                    '公司': b[0] * p[1],
+                    '总计': b[0] * sum(p)}
+
+        elif bt <= b[1]:
+            # 如果税前工资大于最低基数，小于最高基数
+            return {'个人': bt * p[0],
+                    '公司': bt * p[1],
+                    '总计': bt * sum(p)}
+
+        else:
+            # 如果税前工资大于最高基数
+            return {'个人': b[1] * p[0],
+                    '公司': b[1] * p[1],
+                    '总计': b[1] * sum(p)}
+
+    sb = general_compute(sb_b, sb_p)
+    # 计算社保缴纳额
+
+    gjg = general_compute(gjg_b, gjg_p)
+    # 计算公积金缴纳额
+
+    zj = {}
+    # 计算社保及公积金总计缴纳额
+    for key in ('个人', '公司', '总计'):
+        zj[key] = sb[key] + gjg[key]
+
+    return {'社保': sb, '公积金': gjg, '总计': zj}
+WXYJ_cal(10000)
+import pandas as pd
+pd.DataFrame(WXYJ_cal(10000))
