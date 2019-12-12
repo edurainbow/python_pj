@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df401a4-2972-4208-bc35-70bc1169189d" name="Default Changelist" comment="" />
+    <list default="true" id="5df401a4-2972-4208-bc35-70bc1169189d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,26 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
@@ -67,33 +89,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/201910/设备配置定期备份/P1_BAK_Chk_Diff_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="33" column="14" selection-start-line="2" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <element signature="e#35#79#0" expanded="true" />
-                <marker date="1575917716335" expanded="true" signature="317:318" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:320" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:322" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:323" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:325" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:326" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:327" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:328" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:330" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:331" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:334" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:335" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="317:340" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="574:579" ph="..." />
-                <marker date="1575917716335" expanded="true" signature="1090:1095" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2019/201910/设备配置定期备份/P1_GET_MD5_Config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
@@ -102,6 +97,15 @@
                 <element signature="e#35#48#0" expanded="true" />
                 <marker date="1575918809909" expanded="true" signature="188:193" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2019/201910/ms08_067漏洞扫描/Hacker_Auto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -211,8 +215,22 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/2019/201910/ms08_067漏洞扫描/Hacker_Auto.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -238,6 +256,17 @@
             <path>
               <item name="python_pj" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_pj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+              <item name="201910" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_pj" type="b2602c69:ProjectViewProjectNode" />
@@ -327,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576118318443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ok">
+      <created>1576167315591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167315591</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ok">
+      <created>1576167334233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167334233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -340,9 +383,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="194" y="150" width="1620" height="579" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.19794345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.1974359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50107527" side_tool="true" weight="0.15424165" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,11 +394,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5708333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49807197" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49807692" visible="true" weight="0.56161135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49807197" weight="0.21279556" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50192803" side_tool="true" visible="true" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5019231" side_tool="true" visible="true" weight="0.56161135" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49871466" weight="0.32823366" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49871466" weight="0.32962447" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32916668" />
@@ -523,6 +566,13 @@
             <element signature="e#35#48#0" expanded="true" />
             <marker date="1575918809909" expanded="true" signature="188:193" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/201910/ms08_067漏洞扫描/Hacker_Auto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
